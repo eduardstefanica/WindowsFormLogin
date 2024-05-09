@@ -38,6 +38,17 @@ namespace WindowsFormsLogin.DataLayer
                 listUtenti.Add(oUt);
 
                 oUt = new Utente();
+                oUt.nome = "Eduard";
+                oUt.cognome = "Stefanica";
+                oUt.sesso = "M";
+                oUt.email = "eduardstefanicacard@gmail.com";
+                oUt.password = "password";
+                oUt.isValid = true;
+                oUt.data_di_nascita = DateTime.Now;
+
+                listUtenti.Add(oUt);
+
+                oUt = new Utente();
                 oUt.nome = "Mario";
                 oUt.cognome = "Rossi";
                 oUt.sesso = "M";
